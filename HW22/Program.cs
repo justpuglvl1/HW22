@@ -10,11 +10,12 @@ namespace HW22
     {
         static void Main(string[] args)
         {
-            string input = "-1,57,3p45";
+            string input = "-1,57,3pvv45";
 
             double result = Converter.StringToDouble(input);
 
             Console.WriteLine(result);
+            Console.ReadLine();
         }
     }
 }
